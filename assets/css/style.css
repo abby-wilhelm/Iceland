@@ -7,7 +7,7 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
-	} 
+	}
 
 /* Basic */
 
@@ -83,7 +83,7 @@
 		letter-spacing: -0.0325em;
 	}
 
-	
+
 	h2 {
 		font-size: 2.25em;
 		line-height: 1.25em;
@@ -939,13 +939,4 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-
-
-
-
-
-
-
-
-
-
+#header nav.FUCKINGOPEN { display: block!important;}
