@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,900");
 @import url("font-awesome.min.css");
 
 /* Box Model */
@@ -30,7 +30,7 @@
 	body, input, textarea, select {
 		font-family: "Source Sans Pro", "sans-serif";
 		font-weight: 300;
-		font-size: 18pt;
+		font-size: 16pt;
 		line-height: 1.75em;
 		color: #39454b;
 		letter-spacing: 0.025em;
@@ -77,17 +77,27 @@
 
 		}
 
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+	h1, h2, h3, h4 {
+		font-weight: 600;
 		color: inherit;
-		letter-spacing: -0.0325em;
 	}
 
 
 	h2 {
 		font-size: 2.25em;
 		line-height: 1.25em;
-		letter-spacing: -0.05em;
+		letter-spacing: 0.05em;
+	}
+
+	h2.title {
+		letter-spacing: .5em;
+		text-shadow: 0px 0px 40px #525252;
+	}
+
+	p.title {
+		font-size: 25px;
+		letter-spacing: .75em;
+		text-shadow: 0px 0px 40px #525252;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -96,15 +106,6 @@
 			font-size: 1.5em;
 		}
 
-	}
-
-	strong, b {
-		font-weight: 900;
-		color: inherit;
-	}
-
-	em, i {
-		font-style: italic;
 	}
 
 	a {
@@ -287,8 +288,6 @@
 			font-family: FontAwesome;
 			font-size: 1.25em;
 			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
 			line-height: 1;
 			-webkit-font-smoothing: antialiased;
 			-moz-osx-font-smoothing: grayscale;
@@ -758,7 +757,7 @@
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
-		background: #525252;
+		background: #303030;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -939,4 +938,36 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-#header nav.FUCKINGOPEN { display: block!important;}
+
+/* Extras */
+
+#header nav.FUCKINGOPEN { display: block!important;
+}
+
+section#intro {
+	position: relative;
+}
+
+section#intro header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+section#intro footer {
+	position: absolute;
+	bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
